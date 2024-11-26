@@ -33,7 +33,7 @@
             padding: 20px;
             margin: 20px;
         }
-        h2 {
+        h2  {
             color: hwb(0 25% 75%);
         }
         .skills ul, .experience ul {
@@ -60,6 +60,21 @@
         .contact-info {
             color: #333;
             font-size: 16px;
+        }
+        .IMAGE-GALLERY {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .IMAGE-GALLERY img {
+        width: 250px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    .IMAGE-GALLERY img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
         }
     </style>
 </head>
@@ -127,17 +142,18 @@
         </ul>
     </section>
 
-     <section>
-        <h2>CONTACT INFORMATION</h2>
-        <p>Here are my socials and emails if you want to contact me:</p>
-        <ul class="skills">
-            <li><strong>FACEBOOK</strong>:Ferdinand Espiritu (Ferdie) .</li>
-            <li><strong>GMAIL</strong>:Ferdinandespiritu286@gmail.com .</li>
-            <li><strong>CONTACT NO.</strong>:09293317802.</li>
-            <li><strong>TELEGRAM.</strong>:ilmbfsmjuvvvjill.</li>
-        </ul>
+    <section class="IMAGE-GALLERY">
+        <h2>IMAGE GALLERY</h2>
+        <p>Here are some images of my work and experiences:</p>
+        <div>
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image4.jpg" alt="Image 3">
+            <img src="image3.jpg" alt="Image 4">
+            <img src="image5.jpg" alt="Image 5">
+            <img src="image6.jpg" alt="Image 6">
+        </div>
     </section>
-
 
 </body>
 </html>
